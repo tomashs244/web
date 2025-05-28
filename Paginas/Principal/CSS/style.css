@@ -1,0 +1,327 @@
+body {
+    background-color: black;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+
+header {
+   position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background-color: #1f1f1f;
+      z-index: 1000;
+}
+#contenedor-nav{
+    background-color: #1f1f1f;
+}
+#contenido-nav{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+
+
+#contenido-btn-nav{
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+    background-color: rgba(155, 0, 0, 0);
+    margin: 20px;
+}
+.btn-nav{
+    background: none;
+    border: none;
+    color: white;
+    font-size: 20px;
+    transition: all 0.4s;
+}
+.btn-nav:hover{
+    cursor: pointer;
+    color: purple;
+    text-shadow: 0 0 10px purple, 0 0 20px purple, 0 0 40px purple;
+    background-color: #323232;
+    border-radius: 10px;
+    padding: 20px;
+   transform: rotate(10deg);
+}
+
+
+
+
+
+
+main {
+    margin-top: 85px;
+}
+
+
+#contenido-principal{
+    background-image: url(../../../Imagenes/fondo01.jpg);
+    background-size: cover; 
+    background-position: center;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+#contenedor-mi-info{
+    margin: 20px;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+#contenedor-mi-info h2 {
+    color: white;
+    font-size: 50px;
+}
+
+#contenedor-mi-info p  {
+    color: white;
+    font-size: 30px;
+}
+
+#contenedor-mi-info span {
+    color: rgb(29, 208, 184);
+    font-size: 50px;
+    text-shadow: 0 0 80px rgb(29, 208, 184);
+}
+
+#btn-mi-info{
+    background-color: rgb(30, 30, 30);
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    padding-inline: 40px;
+    border-radius: 30px;
+    border: none;
+    font-weight: 800;
+    transition: all 1.6s ease;
+}
+#btn-mi-info:hover{
+    cursor: pointer;
+    box-shadow: inset 300px 0 0 rgb(29, 208, 184);
+    color: black;
+}
+
+
+#contenedor-imagen-yo{
+ margin: 20px;
+ margin-right: 150px;
+ margin-top: 110px;
+}
+#contenedor-imagen-yo img{
+    width: 310px;
+    border-radius: 250px;
+    transition: all 0.6s;
+}
+#contenedor-imagen-yo img:hover{
+    box-shadow: 0 0 70px white;
+    border: 4px solid white;
+    transform: rotate(30deg);
+}
+
+
+
+
+
+#informacion-yo{
+    background-color: rgb(0, 0, 0);
+    height: 80vh;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    justify-content: center;
+}
+
+#contenedor-informacion{
+     background-color: rgb(30, 30, 30);
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     width: 1100px;
+     margin: 30px;
+     gap: 30px;
+     border-radius: 30px;
+     transition: all 0.4s;
+}
+#contenedor-informacion:hover{
+       box-shadow: 0 0 40px rgb(60, 0, 128);
+       transform: scale(1.05);
+}
+
+#img-yo2{
+    width: 280px;
+   margin: 30px;
+    border-radius: 20px;
+    box-shadow: 0 0 70px rgb(0, 0, 0);
+    transition: all 0.7s;
+}
+#img-yo2:hover{
+    filter: grayscale(100%);
+    transform: scale(1.1);
+}
+
+#contenedor-texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-right: 30px;
+}
+#contenedor-texto h2{
+    color: rgb(60, 0, 128);
+    text-shadow: 0 0 10px rgb(60, 0, 128), 0 0 20px rgb(60, 0, 128), 0 0 40px rgb(60, 0, 128);
+    font-size: 30px;
+}
+
+#contenedor-texto p{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+
+
+#habilidades-yo{
+    background-color: rgb(0, 0, 0);
+    height: 70vh;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    justify-content: center;
+}
+#contenedor-habilidades{
+     background-color: rgb(30, 30, 30);
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     width: 1100px;
+     height: 350px;
+     margin: 30px;
+     gap: 30px;
+     border-radius: 30px;
+    transition: all 0.4s;
+}
+#contenedor-habilidades:hover{
+    box-shadow: 0 0 40px rgb(60, 0, 128);
+    transform: scale(1.05);
+}
+
+#contenedor-logos{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+#contenido-logos{
+    border: 3px solid rgb(60, 0, 128);
+    border-radius: 30px;
+    padding:20px;
+     box-shadow: 0 0 20px rgb(60, 0, 128);
+}
+#contenido-logos:hover{
+    border: 3px solid white;
+    background-color: rgb(60, 0, 128);;
+}
+
+
+
+
+
+
+
+#experiencia-yo{
+    background-color: rgb(0, 0, 0);
+    height: 70vh;
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+}
+#contenedor-experiencia{
+     background-color: rgb(30, 30, 30);
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     width: 1100px;
+     height: 350px;
+     margin: 30px;
+     gap: 30px;
+     border-radius: 30px;
+    transition: all 0.4s;
+}
+#contenedor-experiencia:hover{
+    box-shadow: 0 0 40px rgb(60, 0, 128);
+    transform: scale(1.05);
+}
+
+#contenedor-parrafo-contacto{
+    margin: 20px;
+    margin-left: 20px;
+}
+
+
+
+
+
+
+
+#contacto-yo{
+    background-color: rgb(0, 0, 0);
+    height: 80vh;
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+}
+#contenedor-contacto{
+     background-color: rgb(30, 30, 30);
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     width: 1100px;
+     height: 350px;
+     margin: 30px;
+     gap: 30px;
+     border-radius: 30px;
+}
+#contenedor-contacto:hover{
+    box-shadow: 0 0 40px rgb(60, 0, 128);
+    transform: scale(1.05);
+}
+
+#contenedor-logo-contacto{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+}
+
+
+
+#contenedor-footer{
+    background-color: rgb(44, 44, 44);
+    height: 30vh;
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    justify-content: center;
+}
+#contenido-footer{
+    display: flex;
+    flex-direction: row;
+    margin: 30px;
+
+}
+
+#contenedor-info-footer{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+}
+#contenedor-info-footer ul {
+        list-style: none;
+        font-size: 20px;
+}
+
